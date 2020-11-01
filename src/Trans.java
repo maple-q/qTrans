@@ -16,9 +16,9 @@ public class Trans {
     // 是否和目的地建立连接
     private boolean isConnect = false;
     // Local -> Victim
-    private Queue<Byte> queue1 = new LinkedList<>();
+    private Queue<Byte> queue1 = new LinkedList<Byte>();
     // Victim -> Local
-    private Queue<Byte> queue2 = new LinkedList<>();
+    private Queue<Byte> queue2 = new LinkedList<Byte>();
 
     public Trans(Integer listeningPort, String host, Integer port) {
         this.listeningPort = listeningPort;

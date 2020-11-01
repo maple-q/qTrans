@@ -76,7 +76,7 @@ public class Main {
                         System.exit(-1);
                     }
 
-                    new Trans(Integer.valueOf(listenPortUserInput), remoteHostUserInput, Integer.valueOf(remotePortUserInput)).start();
+                    new Trans2(Integer.valueOf(listenPortUserInput), remoteHostUserInput, Integer.valueOf(remotePortUserInput)).start();
                 } else {
                     // todo 其他类型
                     hintUsage();
